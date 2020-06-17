@@ -1,5 +1,153 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /* How can I give all images a max-width? */
 
 /* How can I give all images of a class a max-width? */
 
 /* How can I give just a single image a max-width? */
+
+/* 
+* {
+  border: 1px solid black;
+} */
+
+/* p  {
+  display: inline;
+}  */
+
+/* div {
+  max-width: 300px;
+  background-color: lightblue;
+  
+} */
+
+/* #two {
+  width: 500px
+}
+
+img {
+  max-width: 400px;
+}
+
+.pic {
+  max-width: 150px;
+}
+
+.three {
+  max-width: 10px;
+}
+
+div p {
+  background-color: teal;
+}
+
+h1, p, a {
+  background-color: pink;
+}
+ */
+
+
+/* ul, li {
+  border: 1px solid black;
+} */
+
+body {
+  max-width: 90%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  height: 40px - 100px;
+  background-color: lightgray;
+  margin: 0px;
+}
+
+li {
+  display: inline-block;
+  line-height: 40px;
+  /* margin: 0px 10px 0px 10px; */
+  margin: 0px 10px;
+}
+
+li:hover {
+  background-color: lightskyblue;
+  transition: 1s;
+}
+
+.banner {
+  /* height: 200px; */
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  background-image: url("https://lh3.googleusercontent.com/proxy/ng9NBMKTDm61SneRHV3pSKKjPvmcyB5OlOV_sLqCfffpcYSkxgy4MAvfBm2i9PxKnUkIhEZI1YqQ885FEtR8jR5WhHM7-4LnDQZs-rViPF1FQaleKilCVEVlmwY0UBpTyHHQKUc");
+}
+
+.banner h1 {
+  margin: 0px;
+}
+
+
+.card {
+  max-width: 150px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-card {
+  background-color: lightgray;
+  padding: 0px 15px 15px 14px;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 15px;
+}

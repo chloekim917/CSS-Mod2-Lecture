@@ -8,7 +8,7 @@
 - Demonstrate the anatomy of a declaration block
 - Understand how to use class, id, and element selectors, and selector order of importance
 - Demonstrate the use of the box model
-- Demonstrate the use of CSS grid in page layout
+- Demonstrate the use of CSS grid or Flex Box in page layout
 - Introduce CSS Frameworks like Bootstrap and Semantic UI
 
 ## CSS Basics
@@ -161,3 +161,4 @@ You can style your website very quickly by using a framework, but there are some
 [CSS Zen Garden](http://www.csszengarden.com/) - Great examples of some rock solid CSS experiences  
 [Flexbox Froggy](https://flexboxfroggy.com/) - THE BEST way to learn flex  
 [CSS Grid Garden](http://cssgridgarden.com/) - THE BEST way to learn grid
+[CSS Grid Generator](https://cssgrid-generator.netlify.app/) - awsome grid gen
